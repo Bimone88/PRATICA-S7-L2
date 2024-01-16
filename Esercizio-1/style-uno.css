@@ -1,0 +1,38 @@
+      body {
+        background-image: url("./Armor.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white; 
+      }
+
+      .container {
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.7
+        ); 
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      button {
+        color: white;
+        font-weight: bold;
+      }
+
+      .btn-primary {
+        background-color: #4a90e2; 
+      }
+
+      .btn-danger {
+        background-color: #800080; 
+      }
+
+      .mt-3 {
+        margin-top: 3rem;
+      }

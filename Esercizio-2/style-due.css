@@ -1,0 +1,41 @@
+body {
+    background-image: url(./KING\ TEKKEN3.jpg);
+    color: #fff;
+    font-family: 'Tekken 3', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: red;
+  }
+  
+  #counter {
+    font-size: 3em;
+    background-color: #000;
+    color: #f00;
+    padding: 10px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+    width: 120px;
+  }
+  
+  /* Optional: Aggiunge font di tekken 3 (che non è uscito come vorrei) */
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  
+  body {
+    font-family: 'Press Start 2P', cursive;
+  }
+  
